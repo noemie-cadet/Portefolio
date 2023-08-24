@@ -36,19 +36,19 @@
     transform: translateZ(100px);
   }
   .face2 {
-    transform: translateZ(100px);
-  }
-  .face3 {
     transform: rotateY(90deg) translateZ(100px);
   }
+  .face3 {
+    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+  }
   .face4 {
-    transform: rotateY(180deg) rotateX(90deg) translateZ(100px);
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
   }
   .face5 {
     transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
   }
   .face6 {
-    transform: rotateZ(-90deg) translateZ(100px);
+    transform: rotateX(-90deg) translateZ(100px);
   }
 }
 
@@ -58,18 +58,18 @@
     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
   }
   16% {
-    transform: rotateY(-90dg);
+    transform: rotateX(0deg) rotateY(90deg) rotateZ(0deg);
   }
   33% {
-    transform: rotateY(-90dg) rotateZ(90deg);
+    transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
   }
   50% {
-    transform: rotateY(-180dg) rotateZ(90deg);
+    transform: rotateX(0deg) rotateY(270deg) rotateZ(0deg);
   }
   66% {
-    transform: rotateY(-270dg) rotateX(90deg);
+    transform: rotateX(0deg) rotateY(360deg) rotateZ(0deg);
   }
   83% {
-    transform: rotateX(90dg);
+    transform: rotateX(90deg) rotateY(360deg) rotateZ(0deg);
   }
 }
