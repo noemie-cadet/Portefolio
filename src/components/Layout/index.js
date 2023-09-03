@@ -11,7 +11,7 @@ const Layout = () => {
         <span className="tags top-tags">{'</body>'}</span>
         <span className="tags top-tags">{'</body>'}</span>
         <NavLink exact="true" activeClassName="active" to="/en/">
-        <span className="top-link"> {'EN/FR'} </span>
+        <text className="top-link"> {'English'} </text>
         </NavLink>
 
         <Outlet />

@@ -10,7 +10,7 @@ const Layout = () => {
       <div className="page">
         <span className="tags top-tags">{'</body>'}</span>
         <NavLink exact="true" activeClassName="active" to="/">
-        <span className="top-link"> {'EN/FR'} </span>
+        <text className="top-link"> {'Français'} </text>
         </NavLink>
 
         <Outlet />

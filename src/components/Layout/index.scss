@@ -11,7 +11,7 @@
 
 .top-link {
   bottom: auto;
-  top: 35px;
+  top: 20px;
   color: #212e53;
   position: absolute;
   right: 70px;
@@ -144,6 +144,11 @@
 
 @media (max-width: 480px) {
   
+  .top-link {
+    right: 12px;
+    font-size: 10px;
+  }
+
   .tags {
     font-size: 12px;
     font-family: 'La Belle Aurore';
