@@ -139,6 +139,11 @@
     font-family: 'La Belle Aurore';
   }
   
+  .bottom-tags,
+  .bottom-tag-html {
+    opacity: 0.3;
+  }
+
   .about-page,
   .contact-page,
   .study-page {
@@ -171,6 +176,7 @@
   
       p {
         font-size: 10px;
+        margin-left: 10%;
       }
       .row-line {
         display: flex;

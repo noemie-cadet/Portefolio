@@ -44,3 +44,28 @@ h2 {
     animation: fadeIn 1s 1.8s backwards;
 
   }
+
+//---------------
+
+@media (max-width: 480px) {
+  h2 {
+    margin-top: 25px;
+    font-size: 18px;
+  }
+
+  .gif {
+    width: 60px;
+    height: 50px;
+  }
+
+  .sub {
+    font-size: 9px;
+  }
+  
+  .mfgif {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+
+  }
+}
