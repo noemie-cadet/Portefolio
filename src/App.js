@@ -5,11 +5,11 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Study from './components/Study';
-import LayoutEN from './components/EN/Layout';
-import HomeEN from './components/EN/Home';
-import AboutEN from './components/EN/About';
-import ContactEN from './components/EN/Contact';
-import StudyEN from './components/EN/Study';
+import LayoutEN from './components/EN/LayoutEN';
+import HomeEN from './components/EN/HomeEN';
+import AboutEN from './components/EN/AboutEN';
+import ContactEN from './components/EN/ContactEN';
+import StudyEN from './components/EN/StudyEN';
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom'
-import Sidebar from '../Sidebar'
+import Sidebar from '../SidebarEN'
 import './index.scss'
 import { NavLink } from 'react-router-dom'
 

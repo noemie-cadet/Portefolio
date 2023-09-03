@@ -7,13 +7,15 @@
     width: 60%;
     max-height: 90%;
   }
-
+  
   h1 {
     color: #fff;
     font-size: 53px;
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
+    white-space: nowrap;
+
 
     &::before {
       content: '<h1>';
