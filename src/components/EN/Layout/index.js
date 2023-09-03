@@ -9,8 +9,7 @@ const Layout = () => {
       <Sidebar />
       <div className="page">
         <span className="tags top-tags">{'</body>'}</span>
-        <span className="tags top-tags">{'</body>'}</span>
-        <NavLink exact="true" activeClassName="active" to="/en/">
+        <NavLink exact="true" activeClassName="active" to="/">
         <span className="top-link"> {'EN/FR'} </span>
         </NavLink>
 

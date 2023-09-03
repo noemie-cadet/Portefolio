@@ -50,7 +50,7 @@ const Home = () => {
           <br />
         </h1>
         <br />
-        <h2> Frontend developpeur / Designer 3D</h2>
+        <h2> Front-end developpeur / Designer 3D</h2>
         <Link to="/contact" className="flat-button">
           Contactez-moi!
         </Link>

@@ -1,29 +1,40 @@
 import './index.scss'
 import { useEffect, useState } from 'react'
-import AnimatedLetters from '../AnimatedLetters'
-import BirdGifs from '../../assets/gifs/bird.gif'
-import DragonGifs from '../../assets/gifs/dragon1.gif'
-import Dragon2Gifs from '../../assets/gifs/dragon2.gif'
-import MuteOFF from '../../assets/gifs/MuteOFF.gif'
-import Embout from '../../assets/images/embout.png'
-import Moule from '../../assets/images/moule.png'
-import Rasoir from '../../assets/images/rasoir.png'
+import AnimatedLetters from '../../AnimatedLetters'
+import BirdGifs from '../../../assets/gifs/bird.gif'
+import DragonGifs from '../../../assets/gifs/dragon1.gif'
+import Dragon2Gifs from '../../../assets/gifs/dragon2.gif'
+import MuteOFF from '../../../assets/gifs/MuteOFF.gif'
+import Embout from '../../../assets/images/embout.png'
+import Moule from '../../../assets/images/moule.png'
+import Rasoir from '../../../assets/images/rasoir.png'
 
 const Study = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const StudyArray = [
-    'M',
-    'o',
-    'n',
-    ' ',
-    'p',
-    'a',
-    'r',
-    'c',
-    'o',
+    'S',
+    't',
     'u',
-    'r',
+    'd',
+    'i',
+    'e',
     's',
+    ' ',
+    'a',
+    'n',
+    'd',
+  ]
+  const StudyArray2 = [
+    'e',
+    'x',
+    'p',
+    'e',
+    'r',
+    'i',
+    'e',
+    'n',
+    'c',
+    'e'
   ]
 
   useEffect(() => {
@@ -41,6 +52,12 @@ const Study = () => {
             strArray={StudyArray}
             idx={15}
           />
+          <br />
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={StudyArray2}
+            idx={15}
+          />
         </h1>
         <h2>
           <text>Epitech</text>
@@ -53,27 +70,27 @@ const Study = () => {
         >
           <img className="mfgif" src={MuteOFF} alt="gif" />
           <p>
-            MuteOFF - Faciliter la communication pour les autistes non-verbaux.
+            MuteOFF - Facilitate communication for non-verbal autistic people.
           </p>
         </a>
-        <text className="sub">Developpeur front-end (Mobile & Web) / Design du LOGO</text>
+        <text className="sub">Front-end development (Mobile & Web) / LOGO design</text>
         <div className="text-zone__separator"></div>
         <h2>
           <text>Keimyung University</text>
-          <text className="sub">Sept 2022 - Juill 2023</text>
+          <text className="sub">Sep 2022 - Jul 2023</text>
         </h2>
         <div className="row-line">
           <img className="gif" src={BirdGifs} alt="gif" />
           <img className="gif" src={DragonGifs} alt="gif" />
           <img className="gif" src={Dragon2Gifs} alt="gif" />
         </div>
-        <p>Cours de modélisation et d'animations / Conception de jeu vidéo 2D/3D/VR</p>
+        <p>Modeling and animation course/ 2D/3D/VR video game design</p>
         <div className="text-zone__separator"></div>
         <h2>
           <text>Futur3D</text>
-          <text className="sub">Sept 2021 - Juill 2022</text>
+          <text className="sub">Sep 2021 - Jul 2022</text>
         </h2>
-        <text className="sub">Web maintenance/ Conception 3D </text>
+        <text className="sub">Web maintenance/ 3D design </text>
         <div className="row-line">
           <img className="gif" src={Embout} alt="gif" />
           <img className="gif" src={Moule} alt="gif" />
@@ -82,9 +99,9 @@ const Study = () => {
         <div className="text-zone__separator"></div>
         <h2>
           <text>EDF Reunion</text>
-          <text className="sub">Aout 2020 - Dec 2020 </text>
+          <text className="sub">Aug 2020 - Dec 2020 </text>
         </h2>
-        <text className="sub">Developpement d'application: Conception et réalisation d'une application de gestion répondant au besoin de l'entreprise</text>
+        <text className="sub">Application development: Design and implementation of a management application that meets the needs of the company.</text>
         <div className="text-zone__separator"></div>
       </div>
     </div>
