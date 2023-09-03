@@ -77,7 +77,6 @@
       &::after {
         content: '</h1>';
         color: #ebaca2;
-
         font-family: 'La Belle Aurore';
         font-size: 18px;
         line-height: 18px;
@@ -90,7 +89,6 @@
     }
 
     p {
-      font-style: 18px;
       color: #fff;
       font-family: sans-serif;
       font-weight: 300;
@@ -127,6 +125,66 @@
   .text-animate-hover {
     &:hover {
       color: #bed3c3;
+    }
+  }
+}
+
+// ------------------
+
+
+@media (max-width: 480px) {
+  
+  .tags {
+    font-size: 12px;
+    font-family: 'La Belle Aurore';
+  }
+  
+  .about-page,
+  .contact-page,
+  .study-page {
+    .text-zone {
+      left: 20%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 60%;
+      vertical-align: middle;
+      display: table-cell;
+      max-height: 90%;
+  
+      h1 {
+        font-size: 30px;
+        margin-bottom: 40px;
+        left: 10px;
+        margin-top: 20px;
+  
+        &::before {
+          font-size: 12px;
+        margin-top: -20px;
+        left: 10px;
+        }
+  
+        &::after {
+            font-size: 12px;
+            margin-left: 35px;
+        }
+      }
+  
+      p {
+        font-size: 10px;
+      }
+      .row-line {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 20px;
+  
+        .icon {
+          margin-right: 10px;
+          margin-top: 5px;
+        }
+        .text {
+          margin-left: 10px;
+        }
+      }
     }
   }
 }
