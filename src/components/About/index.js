@@ -53,7 +53,7 @@ const About = () => {
           </h1>
           <p>
             Je suis une étudiante ambitieuse en informatique de 5ème année à
-            Epitech, Mon enthousiasme se focalise principalement sur le domaine de la technologie 3D. Mon enthousiasme se concentre
+            Epitech. Mon enthousiasme se concentre
             particulièrement sur le domaine de la technologie 3D, englobant
             l'impression 3D et la création de modèles virtuels. Je suis
             également passionné de front end, le CSS et autres langages de
