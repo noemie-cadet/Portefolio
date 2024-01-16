@@ -56,7 +56,24 @@ const Study = () => {
             MuteOFF - Faciliter la communication pour les autistes non-verbaux.
           </p>
         </a>
-        <text className="sub">Developpeur front-end (Mobile & Web) / Design du LOGO</text>
+        <text className="sub">
+          Developpeur front-end (Mobile & Web) / Design du LOGO <br />{' '}
+          <ul>
+            {' '}
+            <li>Web : Nextjs / Tailmind </li>
+            <li>Mobile : React Native / NativeWind</li>
+          </ul>
+        </text>
+        <div className="text-zone__separator"></div>
+        <h2>
+          <text>Filiz</text>
+          <text className="sub">Oct 2023 - Mars 2024</text>
+        </h2>
+        <text className="sub">
+          Maintenance et ajout de fonctionnalités à la plateforme selon les
+          besoins admin et client.
+          <br /> <ul>NextJS / Redux</ul>{' '}
+        </text>
         <div className="text-zone__separator"></div>
         <h2>
           <text>Keimyung University</text>
@@ -67,7 +84,10 @@ const Study = () => {
           <img className="gif" src={DragonGifs} alt="gif" />
           <img className="gif" src={Dragon2Gifs} alt="gif" />
         </div>
-        <p>Cours de modélisation et d'animations / Conception de jeu vidéo 2D/3D/VR</p>
+        <p>
+          Cours de modélisation et d'animations / Conception de jeu vidéo
+          2D/3D/VR
+        </p>
         <div className="text-zone__separator"></div>
         <h2>
           <text>Futur3D</text>
@@ -84,7 +104,11 @@ const Study = () => {
           <text>EDF Reunion</text>
           <text className="sub">Aout 2020 - Dec 2020 </text>
         </h2>
-        <text className="sub">Developpement d'application: Conception et réalisation d'une application de gestion répondant au besoin de l'entreprise</text>
+        <text className="sub">
+          Developpement d'application: Conception et réalisation d'une
+          application de gestion répondant au besoin de l'entreprise. <br />{' '}
+          <ul>PHP / HTML</ul>
+        </text>
         <div className="text-zone__separator"></div>
       </div>
     </div>

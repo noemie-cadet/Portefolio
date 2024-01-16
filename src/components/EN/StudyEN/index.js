@@ -11,31 +11,8 @@ import Rasoir from '../../../assets/images/rasoir.png'
 
 const Study = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const StudyArray = [
-    'S',
-    't',
-    'u',
-    'd',
-    'i',
-    'e',
-    's',
-    ' ',
-    'a',
-    'n',
-    'd',
-  ]
-  const StudyArray2 = [
-    'e',
-    'x',
-    'p',
-    'e',
-    'r',
-    'i',
-    'e',
-    'n',
-    'c',
-    'e'
-  ]
+  const StudyArray = ['S', 't', 'u', 'd', 'i', 'e', 's', ' ', 'a', 'n', 'd']
+  const StudyArray2 = ['e', 'x', 'p', 'e', 'r', 'i', 'e', 'n', 'c', 'e']
 
   useEffect(() => {
     setTimeout(() => {
@@ -73,7 +50,24 @@ const Study = () => {
             MuteOFF - Facilitate communication for non-verbal autistic people.
           </p>
         </a>
-        <text className="sub">Front-end development (Mobile & Web) / LOGO design</text>
+        <text className="sub">
+          Front-end development (Mobile & Web) / LOGO design
+          <br />{' '}
+          <ul>
+            <li>Web : Nextjs / Tailmind </li>
+            <li>Mobile : React Native / NativeWind</li>
+          </ul>
+        </text>
+        <div className="text-zone__separator"></div>
+        <h2>
+          <text>Filiz</text>
+          <text className="sub">Oct 2023 - March 2024</text>
+        </h2>
+        <text className="sub">
+          Maintenance and addition of functionalities to the platform according
+          to admin and customer needs.
+          <br /> <ul>NextJS / Redux</ul>{' '}
+        </text>
         <div className="text-zone__separator"></div>
         <h2>
           <text>Keimyung University</text>
@@ -101,7 +95,11 @@ const Study = () => {
           <text>EDF Reunion</text>
           <text className="sub">Aug 2020 - Dec 2020 </text>
         </h2>
-        <text className="sub">Application development: Design and implementation of a management application that meets the needs of the company.</text>
+        <text className="sub">
+          Application development: Design and implementation of a management
+          application that meets the needs of the company. <br />{' '}
+          <ul>PHP / HTML</ul>
+        </text>
         <div className="text-zone__separator"></div>
       </div>
     </div>
