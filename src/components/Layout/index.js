@@ -8,8 +8,7 @@ const Layout = () => {
     <div className="App">
       <Sidebar />
       <div className="page">
-        <span className="tags top-tags">{'</body>'}</span>
-        <span className="tags top-tags">{'</body>'}</span>
+        <span className="tags top-tags">{'<body>'}</span>
         <NavLink exact="true" activeClassName="active" to="/en/">
         <text className="top-link"> {'English'} </text>
         </NavLink>
