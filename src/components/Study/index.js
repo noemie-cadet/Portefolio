@@ -43,6 +43,17 @@ const Study = () => {
           />
         </h1>
         <h2>
+          <text>Studio Paillette</text>
+          <text className="sub">Mars 2024 - Sept 2024</text>
+        </h2>
+        <text className="sub">
+          Développement et maintenance des fonctionnalités Front End du site
+          marchand, avec optimisation de la base de code et création d'outils
+          internes. Participation à l'amélioration de la qualité du code avec le
+          CTO (Tests, CI/CD).
+          <br /> <ul>Astro / Tailwind</ul>{' '}
+        </text>
+        <h2>
           <text>Epitech</text>
           <text className="sub"> 2019 - 2024</text>
         </h2>
